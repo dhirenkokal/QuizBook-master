@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "76249324394",
+    "project_id": "smart-trivia-app",
+    "storage_bucket": "smart-trivia-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76249324394:android:f765e8cd687357e1d72313",
+        "android_client_info": {
+          "package_name": "com.example.trivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76249324394-aoukvl41rnel63tcvaiajtna0ink8r1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trivia",
+            "certificate_hash": "e554ff5437f17565e37e19400e6ea0d1c5f39af0"
+          }
+        },
+        {
+          "client_id": "76249324394-pnn2ipa1qb249nrg1b08smhkd3bibh0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpQSCiTi39zxSxa8PGgdahyOTVnJk0-0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76249324394-pnn2ipa1qb249nrg1b08smhkd3bibh0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

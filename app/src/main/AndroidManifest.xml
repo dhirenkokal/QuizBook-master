@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhiren.quizbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/question"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.dhiren.quizbook.MainActivity"
+            android:exported="true"
+            android:label="Quickbook"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dhiren.quizbook.Navigation_Activity"
+            android:label="QuizBook"
+            android:parentActivityName="com.dhiren.quizbook.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dhiren.quizbook.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.dhiren.quizbook.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName="com.dhiren.quizbook.Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dhiren.quizbook.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.dhiren.quizbook.Questions"
+            android:label="Questions"
+            android:parentActivityName="com.dhiren.quizbook.Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dhiren.quizbook.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.dhiren.quizbook.Result"
+            android:label="Result" />
+        <activity
+            android:name="com.dhiren.quizbook.ScoreCard"
+            android:label="High Score"
+            android:parentActivityName="com.dhiren.quizbook.Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dhiren.quizbook.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name="com.dhiren.quizbook.Help"
+            android:label="Help" />
+        <activity
+            android:name="com.dhiren.quizbook.Setting_activity"
+            android:label="@string/title_activity_setting_activity"
+            android:parentActivityName="com.dhiren.quizbook.Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dhiren.quizbook.Navigation_Activity" />
+        </activity>
+    </application>
+
+</manifest>
